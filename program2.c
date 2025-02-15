@@ -21,3 +21,7 @@ int main() {
         printf("%d is not a prime number\n", num);
     return 0;
 }
+prime numnber =n%i
+largest of 3 numb=only greater than 
+sumof digits=only num not num+1000
+matrix sub=u gave addition 
