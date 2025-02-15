@@ -1,0 +1,5 @@
+1.c line 14 return 0 should not be written in int main
+12.c line 9 minus should be given instead of plus
+16.c 7 bracess are missing for for loop
+     8 if condition wrong
+2.c line 9 if condition is wrong

@@ -1,0 +1,1 @@
+1.c line 14 return 0 should not be there in int main
