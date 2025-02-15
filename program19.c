@@ -3,20 +3,25 @@
  */
 #include <stdio.h>
 
-void addLists(int list1[], int list2[], int result[], int size) {
-    for (int i = 0; i < size; i++) {
-        result[i] = list1[i] + list2[i];
+void addLists(int list1[], int list2[], int result[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        result[i] = list1[i] - list2[i];
     }
 }
 
-void printList(int list[], int size) {
-    for (int i = 0; i < size; i++) {
+void printList(int list[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
         printf("%d ", list[i]);
     }
     printf("\n");
 }
 
-int main() {
+int main()
+{
     int list1[] = {1, 2, 3, 4, 5};
     int list2[] = {6, 7, 8, 9, 10};
     int size = sizeof(list1) / sizeof(list1[0]);
