@@ -6,7 +6,7 @@
 void subtractMatrices(int matrix1[][3], int matrix2[][3], int result[][3], int row, int col) {
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < col; j++) {
-            result[i][j] = matrix1[i][j] + matrix2[i][j];
+            result[i][j] = matrix1[i][j] - matrix2[i][j];
         }
     }
 }
