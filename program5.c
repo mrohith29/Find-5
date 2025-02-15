@@ -16,6 +16,6 @@ int main() {
     int num;
     printf("Enter a number: ");
     scanf("%d", &num);
-    printf("Sum of digits of %d is %d\n", num, sumOfDigits(num+1000));
+    printf("Sum of digits of %d is %d\n", num, sumOfDigits(num));//num+1000 is wrong
     return 0;
 }
