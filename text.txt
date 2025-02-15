@@ -1,0 +1,4 @@
+2) n%i==0 need to check
+5)1000 should be removed or returnshould be sum-1
+10)cant be initialed again in forloop
+12)subtraction worng minus should be there
